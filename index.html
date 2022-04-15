@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <title>快来获取你的SJTU专属头像吧～</title>
+    <script src="./assets/libs/jquery-2.1.3.min.js" type="text/javascript"></script>
+    <script src="./assets/libs/html2canvas.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/core/style.css?v=0.1" />
+    <script src="./assets/core/main.js?v=0.1" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="tmpAvatar">
+        <div class="line1" style="background-color: rgb(242, 232, 73); color: rgb(39, 87, 218);">
+        </div>
+        <div class="line2" style="background-color: rgb(39, 87, 218); color: rgb(255, 255, 255);">
+        </div><img id="frame" src="./assets/images/sjtu_frame_red.png" />
+    </div>
+    <div class="continer">
+        <h1><img src="./assets/images/slogan.png" /></h1>
+        <div class="formContiner">
+            <ul id="roomForm">
+                <!-- 楼号可能包括汉字：臻臻楼 -->
+                <li><label><b>楼栋</b></label><input style="height:32px;font-size: 24px;" type="text" maxlength="8"
+                        name="dorm" id="dorm" value="D32" /></li>
+                <li><label><b>寝室</b></label><input style="height:32px;font-size: 24px;" type="number" maxlength="8"
+                        name="room" id="room" value="215" /></li>
+                <li><label><b>昵称</b></label><input style="height:32px;font-size: 24px;" type="text" maxlength="8"
+                        name="title" id="title" value="寝室长" /></li>
+                <li><label><b>边框</b></label><select style="height:32px;font-size: 24px;" name="frametype" id="frametype"
+                        value="red">
+                        <option value="red">Red</option>
+                        <option value="white">White</option>
+                    </select>
+                </li>
+            </ul><button id="btnSubmit"><img src="./assets/images/btnSubmit.png" /></button>
+        </div>
+        <div id="divAvatar"><img id="roomAvatar">
+            <img id="saveAvatar" src="./assets/images/save.png" />
+        </div>
+        <p align="center">触电视界工作室出品</p>
+        <!-- <p align="center">Powered by HydroHorizon Studio</p> -->
+        <div class="colorContiner">
+            <ul class="tempList">
+                <!-- use main.js to fill the color list -->
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
