@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunknewshub"]=self["webpackChunknewshub"]||[]).push([[224],{63224:function(n,u,e){e.r(u),e.d(u,{default:function(){return c}});var l=function(){var n=this;n._self._c;return n._m(0)},t=[function(){var n=this,u=n._self._c;return u("nav",[u("ul",[u("li")])])}],r={name:"leftSideBar"},s=r,f=e(43736),a=(0,f.Z)(s,l,t,!1,null,null,null),c=a.exports}}]);
+//# sourceMappingURL=224.013f0d7f.js.map
